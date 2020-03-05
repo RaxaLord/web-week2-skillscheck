@@ -1,0 +1,104 @@
+header {
+    background-color: #707070;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h3 {
+    color: white;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.nav {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.nav p {
+    color: white;
+    font-size: 23px;
+}
+
+
+/* splash section  */
+.splash {
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.splash h1 {
+    color: #EAE140;
+    font-size: 100px;
+}
+
+/* main conent parent  */
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* three boxes */
+.three {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.three>div {
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    background-color: #84FDD5;
+}
+
+/* two boxes */
+.two {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.two>div {
+    width: 48%;
+    height: 250px;
+    background-color: #FFC15A;
+}
+
+/* info box */
+.info {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.info span {
+    width: 500px;
+}
+
+img {
+    width: 300px;
+}
+
+/* footer section */
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #3A3958;
+}
